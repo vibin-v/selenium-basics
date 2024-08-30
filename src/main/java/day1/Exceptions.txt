@@ -1,1 +1,8 @@
 ElementClickInterceptedException: element click intercepted:
+
+TimeoutExeception
+InvalidArgumentException
+ElementNotFoundException
+
+
+PageloadTimeout=300 by default
