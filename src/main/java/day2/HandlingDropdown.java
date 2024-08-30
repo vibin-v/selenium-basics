@@ -34,9 +34,9 @@ public class HandlingDropdown {
         ideSelection.selectByVisibleText("Eclipse");
 
         List <WebElement> allIDE = ideSelection.getOptions();
-            for(WebElement webElement : allIDE)
+            for(WebElement idElement : allIDE)
             {
-                System.out.println(webElement.getText());
+                System.out.println(idElement.getText());
             }
 
             System.out.println("*********************");
